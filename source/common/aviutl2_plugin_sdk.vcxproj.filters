@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="aviutl2_plugin_sdk\English.MediaFilter.aul2" />
+    <None Include="aviutl2_plugin_sdk\English.WindowClient.aul2" />
+    <None Include="aviutl2_plugin_sdk\ScriptModuleSample.obj2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aviutl2_plugin_sdk\config2.h" />
+    <ClInclude Include="aviutl2_plugin_sdk\filter2.h" />
+    <ClInclude Include="aviutl2_plugin_sdk\input2.h" />
+    <ClInclude Include="aviutl2_plugin_sdk\logger2.h" />
+    <ClInclude Include="aviutl2_plugin_sdk\module2.h" />
+    <ClInclude Include="aviutl2_plugin_sdk\output2.h" />
+    <ClInclude Include="aviutl2_plugin_sdk\plugin2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aviutl2_plugin_sdk\AviReader.cpp" />
+    <ClCompile Include="aviutl2_plugin_sdk\AviSaver.cpp" />
+    <ClCompile Include="aviutl2_plugin_sdk\MediaFilter.cpp" />
+    <ClCompile Include="aviutl2_plugin_sdk\MediaObject.cpp" />
+    <ClCompile Include="aviutl2_plugin_sdk\ScriptModule.cpp" />
+    <ClCompile Include="aviutl2_plugin_sdk\WindowClient.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="aviutl2_plugin_sdk\aviutl2_plugin_sdk.txt" />
+    <Text Include="aviutl2_plugin_sdk\license.txt" />
+  </ItemGroup>
+</Project>

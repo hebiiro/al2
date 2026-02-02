@@ -1,0 +1,12 @@
+[submodule "source/common/my"]
+	path = source/common/my
+	url = https://github.com/hebiiro/my
+[submodule "source/common/sprintfmt"]
+	path = source/common/sprintfmt
+	url = https://github.com/hebiiro/sprintfmt
+[submodule "source/common/aviutl2_plugin_sdk"]
+	path = source/common/aviutl2_plugin_sdk
+	url = https://github.com/oov/aviutl2_plugin_sdk
+[submodule "source/al2_slimming"]
+	path = source/al2_slimming
+	url = https://github.com/hebiiro/al2_slimming
