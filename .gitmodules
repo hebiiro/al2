@@ -13,3 +13,6 @@
 [submodule "source/al2_ui_dressing"]
 	path = source/al2_ui_dressing
 	url = https://github.com/hebiiro/al2_ui_dressing
+[submodule "source/al2_visual_font"]
+	path = source/al2_visual_font
+	url = https://github.com/hebiiro/al2_visual_font

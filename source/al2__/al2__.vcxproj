@@ -145,6 +145,9 @@
     <ProjectReference Include="..\al2_ui_dressing\al2_ui_dressing.vcxproj">
       <Project>{4dc9992f-1b75-4e8b-8343-68ddaab2d8e0}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\al2_visual_font\source\al2_visual_font.vcxproj">
+      <Project>{ed9443e7-8d93-4e64-9428-e890206bb644}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -19,6 +19,7 @@ git submodule add https://github.com/hebiiro/sprintfmt common/sprintfmt
 git submodule add https://github.com/oov/aviutl2_plugin_sdk common/aviutl2_plugin_sdk
 git submodule add https://github.com/hebiiro/al2_slimming
 git submodule add https://github.com/hebiiro/al2_ui_dressing
+git submodule add https://github.com/hebiiro/al2_visual_font
 ```
 
 ---
