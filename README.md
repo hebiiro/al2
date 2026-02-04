@@ -4,6 +4,11 @@
 > * **競合回避のため、ここにあるプラグインは<br>
 [`ダークモード化MOD`](https://github.com/hebiiro/al2_jd)をアンインストールしてから使用してください。**
 
+## 💫各リポジトリへのリンク
+
+* [スリム化MOD](https://github.com/hebiiro/al2_slimming)
+* [UIドレッシングMOD](https://github.com/hebiiro/al2_ui_dressing)
+
 ## 🏷️共通事項
 
 * `データフォルダ`とは`C:\ProgramData\aviutl2`または`aviutl2.exeがあるフォルダ\data`のことです。
