@@ -54,6 +54,9 @@ git submodule update --remote
 
 * 汎用ライブラリ `root\source\common\my`
 * 書式化ライブラリ `root\source\common\sprintfmt`
+* AviUtl2プラグイン用ライブラリ `root\source\common\core`
+	* 共通ソースコードを抽出して基本クラスに纏めています。
+	* 各プラグインのクラスはこのサブクラスになっていることが多いです。
 
 ## 絵文字
 
@@ -109,14 +112,10 @@ git submodule update --remote
 ## プロジェクトの主な構造
 
 * `hive_t` データを保持します。プロジェクト全体から参照されます。
-* `hook_manager_t` フックを管理します。
-* `addin_window_t` aviutlプラグインウィンドウのように振る舞います。
-* `addin_dialog_t` アドインウィンドウにコントロールを配置するための子ウィンドウです。
 * `config_io_t` プロジェクト全体の設定を読み込み・保存します。ほぼプロジェクト全体を参照します。
 * `app_t` インターフェイスを実装し、他のクラスから相互参照されます。
-* `addin_t` プロジェクト全体を参照する。他のクラスからは参照されることはありません。
 * 依存関係は次のようになることが多いです。
-`addin_t`->`app_t`->`config_io_t`->`その他のクラス`->`hive_t`
+`app_t`->`config_io_t`->`その他のクラス`->`hive_t`
 
 ## コンフィグファイル
 
