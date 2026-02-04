@@ -18,6 +18,7 @@ git submodule add https://github.com/hebiiro/my common/my
 git submodule add https://github.com/hebiiro/sprintfmt common/sprintfmt
 git submodule add https://github.com/oov/aviutl2_plugin_sdk common/aviutl2_plugin_sdk
 git submodule add https://github.com/hebiiro/al2_slimming
+git submodule add https://github.com/hebiiro/al2_ui_dressing
 ```
 
 ---
@@ -70,7 +71,8 @@ git submodule update --remote
 * 🎨UIなどの見た目を変更したときに使用します。
 * 📝ドキュメントを変更したときに使用します。
 * 🚚フォルダ構造を変えたときに使用します。
-* ⬆️使用パッケージを更新したときに使用します。
+* ⬆️サブモジュールの更新を反映したときに使用します。
+* 📦️使用パッケージを更新したときに使用します。
 * 🔀マージしたときに使用します。
 
 ## コーディングパターン

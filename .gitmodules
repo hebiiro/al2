@@ -10,3 +10,6 @@
 [submodule "source/al2_slimming"]
 	path = source/al2_slimming
 	url = https://github.com/hebiiro/al2_slimming
+[submodule "source/al2_ui_dressing"]
+	path = source/al2_ui_dressing
+	url = https://github.com/hebiiro/al2_ui_dressing
