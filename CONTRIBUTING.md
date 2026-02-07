@@ -20,6 +20,7 @@ git submodule add https://github.com/oov/aviutl2_plugin_sdk common/aviutl2_plugi
 git submodule add https://github.com/hebiiro/al2_slimming
 git submodule add https://github.com/hebiiro/al2_ui_dressing
 git submodule add https://github.com/hebiiro/al2_visual_font
+git submodule add https://github.com/hebiiro/al2_preset_adder
 ```
 
 ---

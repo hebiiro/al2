@@ -16,3 +16,6 @@
 [submodule "source/al2_visual_font"]
 	path = source/al2_visual_font
 	url = https://github.com/hebiiro/al2_visual_font
+[submodule "source/al2_preset_adder"]
+	path = source/al2_preset_adder
+	url = https://github.com/hebiiro/al2_preset_adder

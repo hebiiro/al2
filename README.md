@@ -9,6 +9,7 @@
 * [スリム化MOD](https://github.com/hebiiro/al2_slimming)
 * [UIドレッシングMOD](https://github.com/hebiiro/al2_ui_dressing)
 * [フォント視覚化MOD](https://github.com/hebiiro/al2_visual_font)
+* [プリセット追加MOD](https://github.com/hebiiro/al2_preset_adder)
 
 ## 🏷️共通事項
 
