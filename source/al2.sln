@@ -27,15 +27,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "common\core\core.vc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aviutl2_plugin_sdk", "common\aviutl2_plugin_sdk.vcxproj", "{44815F81-6444-499F-87F7-A1A06130DAC8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_slimming", "al2_slimming\al2_slimming.vcxproj", "{30E46FEF-25A3-4200-8310-AE78C7C9F25F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_ui_dressing", "al2_ui_dressing\al2_ui_dressing.vcxproj", "{4DC9992F-1B75-4E8B-8343-68DDAAB2D8E0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DarkenWindow.aul", "al2_ui_dressing\DarkenWindow.aul\DarkenWindow.aul.vcxproj", "{D30DB443-E8BE-4F53-80A0-6D9851C31DB5}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_visual_font", "al2_visual_font\source\al2_visual_font.vcxproj", "{ED9443E7-8D93-4E64-9428-E890206BB644}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_preset_adder", "al2_preset_adder\source\al2_preset_adder\al2_preset_adder.vcxproj", "{6BF73123-A939-4F9E-B9D4-C27BE4F31825}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_slimming", "al2_slimming\source\al2_slimming\al2_slimming.vcxproj", "{30E46FEF-25A3-4200-8310-AE78C7C9F25F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_ui_dressing", "al2_ui_dressing\source\al2_ui_dressing\al2_ui_dressing.vcxproj", "{4DC9992F-1B75-4E8B-8343-68DDAAB2D8E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DarkenWindow.aul", "al2_ui_dressing\source\DarkenWindow.aul\DarkenWindow.aul.vcxproj", "{D30DB443-E8BE-4F53-80A0-6D9851C31DB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_visual_font", "al2_visual_font\source\al2_visual_font\al2_visual_font.vcxproj", "{ED9443E7-8D93-4E64-9428-E890206BB644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +77,14 @@ Global
 		{44815F81-6444-499F-87F7-A1A06130DAC8}.Release|x64.ActiveCfg = Release|x64
 		{44815F81-6444-499F-87F7-A1A06130DAC8}.Release|x86.ActiveCfg = Release|Win32
 		{44815F81-6444-499F-87F7-A1A06130DAC8}.Release|x86.Build.0 = Release|Win32
+		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Debug|x64.ActiveCfg = Debug|x64
+		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Debug|x64.Build.0 = Debug|x64
+		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Debug|x86.ActiveCfg = Debug|Win32
+		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Debug|x86.Build.0 = Debug|Win32
+		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Release|x64.ActiveCfg = Release|x64
+		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Release|x64.Build.0 = Release|x64
+		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Release|x86.ActiveCfg = Release|Win32
+		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Release|x86.Build.0 = Release|Win32
 		{30E46FEF-25A3-4200-8310-AE78C7C9F25F}.Debug|x64.ActiveCfg = Debug|x64
 		{30E46FEF-25A3-4200-8310-AE78C7C9F25F}.Debug|x64.Build.0 = Debug|x64
 		{30E46FEF-25A3-4200-8310-AE78C7C9F25F}.Debug|x86.ActiveCfg = Debug|Win32
@@ -109,14 +117,6 @@ Global
 		{ED9443E7-8D93-4E64-9428-E890206BB644}.Release|x64.Build.0 = Release|x64
 		{ED9443E7-8D93-4E64-9428-E890206BB644}.Release|x86.ActiveCfg = Release|Win32
 		{ED9443E7-8D93-4E64-9428-E890206BB644}.Release|x86.Build.0 = Release|Win32
-		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Debug|x64.ActiveCfg = Debug|x64
-		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Debug|x64.Build.0 = Debug|x64
-		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Debug|x86.ActiveCfg = Debug|Win32
-		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Debug|x86.Build.0 = Debug|Win32
-		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Release|x64.ActiveCfg = Release|x64
-		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Release|x64.Build.0 = Release|x64
-		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Release|x86.ActiveCfg = Release|Win32
-		{6BF73123-A939-4F9E-B9D4-C27BE4F31825}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

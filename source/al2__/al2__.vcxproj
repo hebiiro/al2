@@ -142,13 +142,13 @@
     <ProjectReference Include="..\al2_preset_adder\source\al2_preset_adder\al2_preset_adder.vcxproj">
       <Project>{6bf73123-a939-4f9e-b9d4-c27be4f31825}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\al2_slimming\al2_slimming.vcxproj">
+    <ProjectReference Include="..\al2_slimming\source\al2_slimming\al2_slimming.vcxproj">
       <Project>{30e46fef-25a3-4200-8310-ae78c7c9f25f}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\al2_ui_dressing\al2_ui_dressing.vcxproj">
+    <ProjectReference Include="..\al2_ui_dressing\source\al2_ui_dressing\al2_ui_dressing.vcxproj">
       <Project>{4dc9992f-1b75-4e8b-8343-68ddaab2d8e0}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\al2_visual_font\source\al2_visual_font.vcxproj">
+    <ProjectReference Include="..\al2_visual_font\source\al2_visual_font\al2_visual_font.vcxproj">
       <Project>{ed9443e7-8d93-4e64-9428-e890206bb644}</Project>
     </ProjectReference>
   </ItemGroup>
