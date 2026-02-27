@@ -4,7 +4,6 @@
   <PropertyGroup Label="UserMacros">
     <origin_dir>$(SolutionDir)</origin_dir>
     <aviutl2_dir>C:\dev\aviutl2\app\aviutl2</aviutl2_dir>
-    <aviutl2_plugin_ext>.aui2</aviutl2_plugin_ext>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -15,7 +14,7 @@
       <ModuleDefinitionFile>main.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(TargetPath)" "$(aviutl2_dir)\data\Plugin\al2\$(TargetName)$(aviutl2_plugin_ext)"</Command>
+      <Command>copy /Y "$(TargetPath)" "$(aviutl2_dir)\data\Plugin\al2\$(TargetFileName)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -24,9 +23,6 @@
     </BuildMacro>
     <BuildMacro Include="aviutl2_dir">
       <Value>$(aviutl2_dir)</Value>
-    </BuildMacro>
-    <BuildMacro Include="aviutl2_plugin_ext">
-      <Value>$(aviutl2_plugin_ext)</Value>
     </BuildMacro>
   </ItemGroup>
 </Project>
