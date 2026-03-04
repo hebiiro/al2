@@ -66,6 +66,7 @@ using namespace Gdiplus;
 using Microsoft::WRL::ComPtr;
 
 #include "common/aviutl2_plugin_sdk/input2.h"
+#include "common/aviutl2_plugin_sdk/plugin2.h"
 #include "common/aviutl2_plugin_sdk/config2.h"
 #include "common/nlohmann/json.hpp"
 #include "common/detours/detours.h"

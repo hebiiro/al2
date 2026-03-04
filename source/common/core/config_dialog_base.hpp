@@ -27,6 +27,7 @@ namespace apn
 
 		virtual BOOL on_to_ui() { return TRUE; }
 		virtual BOOL on_from_ui() { return TRUE; }
+		virtual void on_init_dialog() {}
 		virtual void on_command(UINT code, UINT control_id, HWND control) {}
 		virtual void on_notify(NMHDR* nmhdr) {}
 
@@ -37,12 +38,22 @@ namespace apn
 		{
 			MY_TRACE_FUNC("");
 
+			return init(idd, hive_base->aviutl2_window);
+		}
+
+		//
+		// 初期化処理を実行します。
+		//
+		BOOL init(UINT idd, HWND parent)
+		{
+			MY_TRACE_FUNC("");
+
 			{
 				// 初期化中にエディットボックスがコマンドを発行してしまうので、
 				// それを防ぐためにロックしておきます。
 				my::locker_t locker(this);
 
-				if (!__super::create(hive_base->instance, MAKEINTRESOURCE(idd), hive_base->aviutl2_window))
+				if (!__super::create(hive_base->instance, MAKEINTRESOURCE(idd), parent))
 				{
 					hive_base->message_box(L"コンフィグダイアログの作成に失敗しました");
 
@@ -153,7 +164,7 @@ namespace apn
 			case WM_INITDIALOG:
 				{
 					// 翻訳されたダイアログ名をセットします。
-					::SetWindowTextW(hwnd, tr(version_base->name));
+					::SetWindowTextW(hwnd, version_base->get_name().c_str());
 
 					// スコープ終了時(デフォルト処理の後)に実行します。
 					my::scope_exit scope_exit([&]()
@@ -167,6 +178,8 @@ namespace apn
 							return TRUE;
 						},
 						0);
+
+						on_init_dialog();
 					});
 
 					return __super::on_wnd_proc(hwnd, message, w_param, l_param);

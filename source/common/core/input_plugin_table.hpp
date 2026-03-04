@@ -10,13 +10,12 @@ namespace apn
 		//
 		// 翻訳されたプラグイン名です。
 		//
-		const std::wstring name = tr(version_base->name);
+		const std::wstring name = version_base->get_name();
 
 		//
 		// 翻訳されたプラグイン情報です。
 		//
-		const std::wstring information = my::format(L"{/}{/}",
-			tr(version_base->information), version_base->revision);
+		const std::wstring information = version_base->get_information();
 
 		//
 		// コンストラクタです。

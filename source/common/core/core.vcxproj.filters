@@ -11,5 +11,8 @@
     <ClInclude Include="config_io_base.hpp" />
     <ClInclude Include="include2.hpp" />
     <ClInclude Include="config_io_base2.hpp" />
+    <ClInclude Include="translator.hpp" />
+    <ClInclude Include="exports.hpp" />
+    <ClInclude Include="app_base.hpp" />
   </ItemGroup>
 </Project>

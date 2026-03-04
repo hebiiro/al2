@@ -123,14 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="app_base.hpp" />
     <ClInclude Include="config_dialog_base.hpp" />
     <ClInclude Include="config_io_base.hpp" />
     <ClInclude Include="config_io_base2.hpp" />
+    <ClInclude Include="exports.hpp" />
     <ClInclude Include="hive_base.hpp" />
     <ClInclude Include="include.hpp" />
     <ClInclude Include="include2.hpp" />
     <ClInclude Include="input_plugin_table.hpp" />
     <ClInclude Include="json_io.hpp" />
+    <ClInclude Include="translator.hpp" />
     <ClInclude Include="utils.hpp" />
     <ClInclude Include="version_base.hpp" />
   </ItemGroup>

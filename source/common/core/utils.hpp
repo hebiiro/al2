@@ -3,11 +3,13 @@
 namespace apn
 {
 	//
-	// aviutl2ウィンドウを捕捉します。
+	// コアライブラリを初期化します。
 	//
-	inline BOOL catch_aviutl2_window()
+	inline BOOL init_core_lib(CONFIG_HANDLE* config)
 	{
-		MY_TRACE_FUNC("");
+		tr.config = config;
+//		hive_base->plugin_name = version_base->get_name();
+		hive_base->plugin_name = version_base->get_information();
 
 		// カレントスレッドのウィンドウを列挙します。
 		return ::EnumThreadWindows(::GetCurrentThreadId(), [](HWND hwnd, LPARAM l_param)
@@ -28,22 +30,6 @@ namespace apn
 			// 列挙を終了します。
 			return FALSE;
 		}, 0);
-	}
-
-	//
-	// 指定された文字列を翻訳して返します。
-	//
-	inline LPCWSTR tr(const std::wstring& text)
-	{
-		return hive_base->aviutl2.config->translate(hive_base->aviutl2.config, text.c_str());
-	}
-
-	//
-	// 指定された文字列を翻訳して返します。
-	//
-	inline LPCWSTR tr(const std::wstring& section, const std::wstring& text)
-	{
-		return hive_base->aviutl2.config->get_language_text(hive_base->aviutl2.config, section.c_str(), text.c_str());
 	}
 
 	//

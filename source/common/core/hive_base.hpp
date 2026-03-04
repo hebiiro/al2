@@ -28,10 +28,14 @@ namespace apn
 		std::wstring config_file_name;
 
 		//
+		// プラグイン名です。
+		//
+		std::wstring plugin_name;
+
+		//
 		// このクラスはaviutl2関連の変数を保持します。
 		//
 		struct aviutl2_t {
-			CONFIG_HANDLE* config = {};
 		} aviutl2;
 
 		//
@@ -47,7 +51,7 @@ namespace apn
 		//
 		int32_t message_box(const std::wstring& text, HWND hwnd = nullptr, int32_t type = MB_OK | MB_ICONWARNING) {
 			if (!hwnd) hwnd = plugin_window;
-			return ::MessageBoxW(hwnd, text.c_str(), version_base->information.c_str(), type);
+			return ::MessageBoxW(hwnd, text.c_str(), plugin_name.c_str(), type);
 		}
 	} *hive_base = {};
 }
