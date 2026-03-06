@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DarkenWindow.aul", "al2_ui_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_visual_font", "al2_visual_font\source\al2_visual_font\al2_visual_font.vcxproj", "{ED9443E7-8D93-4E64-9428-E890206BB644}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_appride", "al2_appride\source\al2_appride\al2_appride.vcxproj", "{0D7D1602-B826-4246-B575-1CAF1616A4C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -117,6 +119,14 @@ Global
 		{ED9443E7-8D93-4E64-9428-E890206BB644}.Release|x64.Build.0 = Release|x64
 		{ED9443E7-8D93-4E64-9428-E890206BB644}.Release|x86.ActiveCfg = Release|Win32
 		{ED9443E7-8D93-4E64-9428-E890206BB644}.Release|x86.Build.0 = Release|Win32
+		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Debug|x64.ActiveCfg = Debug|x64
+		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Debug|x64.Build.0 = Debug|x64
+		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Debug|x86.Build.0 = Debug|Win32
+		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Release|x64.ActiveCfg = Release|x64
+		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Release|x64.Build.0 = Release|x64
+		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Release|x86.ActiveCfg = Release|Win32
+		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

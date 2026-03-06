@@ -19,3 +19,6 @@
 [submodule "source/al2_preset_adder"]
 	path = source/al2_preset_adder
 	url = https://github.com/hebiiro/al2_preset_adder
+[submodule "source/al2_appride"]
+	path = source/al2_appride
+	url = https://github.com/hebiiro/al2_appride
