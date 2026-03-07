@@ -14,7 +14,9 @@ namespace apn
 				::DisableThreadLibraryCalls(hive_base->instance = instance);
 
 				// このdllがアンロードされないようにします。
-				::LoadLibrary(my::get_module_file_name(instance).c_str());
+				// こうした方が安全ですが、
+				// aviutl2からアンインストールできなくなるのでコメントアウトしています。
+//				::LoadLibrary(my::get_module_file_name(instance).c_str());
 
 				break;
 			}
