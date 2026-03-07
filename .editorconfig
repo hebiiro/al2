@@ -6,5 +6,5 @@ charset = utf-8-bom
 [*.rc]
 charset = utf-16le
 
-[*.*.{json,tsv}]
+[*.*.{json,tsv,ini,txt}]
 charset = utf-8
