@@ -4,6 +4,7 @@
   <PropertyGroup Label="UserMacros">
     <origin_dir>$(SolutionDir)</origin_dir>
     <aviutl2_dir>C:\dev\aviutl2\app\aviutl2</aviutl2_dir>
+    <pack_dir>$(UserProfile)\source\pack\al2</pack_dir>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -14,7 +15,21 @@
       <ModuleDefinitionFile>main.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(TargetPath)" "$(aviutl2_dir)\data\Plugin\al2\$(TargetFileName)"</Command>
+      <Command>copy /Y "$(TargetPath)" "$(aviutl2_dir)\data\Plugin\al2\$(TargetFileName)"
+
+set PKGDIR=$(pack_dir)\$(TargetName)
+
+echo Creating package directory
+if exist "%PKGDIR%" rmdir /s /q "%PKGDIR%"
+mkdir "%PKGDIR%\Plugin\al2"
+
+echo Copying package files
+copy "$(TargetPath)" "%PKGDIR%\Plugin\al2\"
+copy "$(ProjectDir)\..\..\CREDITS.md" "%PKGDIR%"
+copy "$(ProjectDir)\..\..\LICENSE" "%PKGDIR%"
+copy "$(ProjectDir)\..\..\README.md" "%PKGDIR%"
+if exist "$(ProjectDir)\..\..\assets" xcopy "$(ProjectDir)\..\..\assets" "%PKGDIR%\Plugin\al2\$(TargetName)\assets" /E /I /Y
+</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -23,6 +38,9 @@
     </BuildMacro>
     <BuildMacro Include="aviutl2_dir">
       <Value>$(aviutl2_dir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="pack_dir">
+      <Value>$(pack_dir)</Value>
     </BuildMacro>
   </ItemGroup>
 </Project>

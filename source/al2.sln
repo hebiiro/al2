@@ -39,6 +39,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_visual_font", "al2_visu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_appride", "al2_appride\source\al2_appride\al2_appride.vcxproj", "{0D7D1602-B826-4246-B575-1CAF1616A4C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "i18n", "i18n", "{093427E2-B8ED-45EB-9877-6C238B6CA337}"
+	ProjectSection(SolutionItems) = preProject
+		..\i18n\.al2.aul2 = ..\i18n\.al2.aul2
+		..\i18n\简体中文.al2.aul2 = ..\i18n\简体中文.al2.aul2
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -136,6 +142,7 @@ Global
 		{E90444F1-C14F-41E1-B105-7EC6719CA0BE} = {8852EC74-CE97-428A-9917-4EDA267A1F9F}
 		{3A90037B-1A96-418E-AD5A-55679312E006} = {8852EC74-CE97-428A-9917-4EDA267A1F9F}
 		{44815F81-6444-499F-87F7-A1A06130DAC8} = {8852EC74-CE97-428A-9917-4EDA267A1F9F}
+		{093427E2-B8ED-45EB-9877-6C238B6CA337} = {DDB4EF12-CC4E-5E88-E6FC-71A802F4DE97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84C4E905-3CF3-48C4-AF6B-C7C7E4A43775}
