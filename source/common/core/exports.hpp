@@ -62,7 +62,7 @@ namespace apn
 	EXTERN_C void RegisterPlugin(HOST_APP_TABLE* host)
 	{
 		// プラグインの情報を設定します。
-		host->set_plugin_information(version_base->get_name().c_str());
+		host->set_plugin_information(version_base->get_information().c_str());
 
 		return (void)app_base->on_register_plugin(host);
 	}
