@@ -22,6 +22,7 @@ git submodule add https://github.com/hebiiro/al2_ui_dressing
 git submodule add https://github.com/hebiiro/al2_visual_font
 git submodule add https://github.com/hebiiro/al2_preset_adder
 git submodule add https://github.com/hebiiro/al2_appride
+git submodule add https://github.com/hebiiro/al2_dialog_resizer
 ```
 
 ---

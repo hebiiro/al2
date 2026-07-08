@@ -1,4 +1,4 @@
-[submodule "source/common/my"]
+﻿[submodule "source/common/my"]
 	path = source/common/my
 	url = https://github.com/hebiiro/my
 [submodule "source/common/sprintfmt"]
@@ -22,3 +22,6 @@
 [submodule "source/al2_appride"]
 	path = source/al2_appride
 	url = https://github.com/hebiiro/al2_appride
+[submodule "source/al2_dialog_resizer"]
+	path = source/al2_dialog_resizer
+	url = https://github.com/hebiiro/al2_dialog_resizer

@@ -142,6 +142,9 @@
     <ProjectReference Include="..\al2_appride\source\al2_appride\al2_appride.vcxproj">
       <Project>{0d7d1602-b826-4246-b575-1caf1616a4c5}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\al2_dialog_resizer\source\al2_dialog_resizer\al2_dialog_resizer.vcxproj">
+      <Project>{1ca56d9b-617a-4710-be98-dc3123271314}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\al2_preset_adder\source\al2_preset_adder\al2_preset_adder.vcxproj">
       <Project>{6bf73123-a939-4f9e-b9d4-c27be4f31825}</Project>
     </ProjectReference>

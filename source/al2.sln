@@ -45,6 +45,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "i18n", "i18n", "{093427E2-B
 		..\i18n\简体中文.al2.aul2 = ..\i18n\简体中文.al2.aul2
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_dialog_resizer", "al2_dialog_resizer\source\al2_dialog_resizer\al2_dialog_resizer.vcxproj", "{1CA56D9B-617A-4710-BE98-DC3123271314}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -133,6 +135,14 @@ Global
 		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Release|x64.Build.0 = Release|x64
 		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Release|x86.ActiveCfg = Release|Win32
 		{0D7D1602-B826-4246-B575-1CAF1616A4C5}.Release|x86.Build.0 = Release|Win32
+		{1CA56D9B-617A-4710-BE98-DC3123271314}.Debug|x64.ActiveCfg = Debug|x64
+		{1CA56D9B-617A-4710-BE98-DC3123271314}.Debug|x64.Build.0 = Debug|x64
+		{1CA56D9B-617A-4710-BE98-DC3123271314}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CA56D9B-617A-4710-BE98-DC3123271314}.Debug|x86.Build.0 = Debug|Win32
+		{1CA56D9B-617A-4710-BE98-DC3123271314}.Release|x64.ActiveCfg = Release|x64
+		{1CA56D9B-617A-4710-BE98-DC3123271314}.Release|x64.Build.0 = Release|x64
+		{1CA56D9B-617A-4710-BE98-DC3123271314}.Release|x86.ActiveCfg = Release|Win32
+		{1CA56D9B-617A-4710-BE98-DC3123271314}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
