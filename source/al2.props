@@ -17,13 +17,8 @@
     <PostBuildEvent>
       <Command>copy /Y "$(TargetPath)" "$(aviutl2_dir)\data\Plugin\al2\$(TargetFileName)"
 
-set PKGDIR=$(pack_dir)\$(TargetName)
-
-echo Creating package directory
-if exist "%PKGDIR%" rmdir /s /q "%PKGDIR%"
-mkdir "%PKGDIR%\Plugin\al2"
-
 echo Copying package files
+set PKGDIR=$(pack_dir)\$(TargetName)
 copy "$(TargetPath)" "%PKGDIR%\Plugin\al2\"
 copy "$(ProjectDir)\..\..\CREDITS.md" "%PKGDIR%"
 copy "$(ProjectDir)\..\..\LICENSE" "%PKGDIR%"
@@ -31,6 +26,13 @@ copy "$(ProjectDir)\..\..\README.md" "%PKGDIR%"
 if exist "$(ProjectDir)\..\..\assets" xcopy "$(ProjectDir)\..\..\assets" "%PKGDIR%\Plugin\al2\$(TargetName)\assets" /E /I /Y
 </Command>
     </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>echo Creating package directory
+set PKGDIR=$(pack_dir)\$(TargetName)
+if exist "%PKGDIR%" rmdir /s /q "%PKGDIR%"
+mkdir "%PKGDIR%\Plugin\al2"
+</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <BuildMacro Include="origin_dir">
