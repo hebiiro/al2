@@ -22,36 +22,6 @@ template<class T,class S> struct std::hash<std::pair<T,S>>
 namespace apn
 {
 	//
-	// コアライブラリを初期化します。
-	//
-	inline BOOL init_core_lib(CONFIG_HANDLE* config)
-	{
-		tr.config = config;
-//		hive_base->plugin_name = version_base->get_name();
-		hive_base->plugin_name = version_base->get_information();
-
-		// カレントスレッドのウィンドウを列挙します。
-		return ::EnumThreadWindows(::GetCurrentThreadId(), [](HWND hwnd, LPARAM l_param)
-		{
-			// クラス名を取得します。
-			auto class_name = my::get_class_name(hwnd);
-			MY_TRACE_STR(class_name);
-
-			// クラス名が一致しない場合は除外します。
-			if (class_name != L"aviutl2Manager") return TRUE;
-
-			// トップレベルウィンドウではない場合は除外します。
-			if (::GetWindow(hwnd, GW_OWNER)) return TRUE;
-
-			// aviutl2ウィンドウをセットします。
-			hive_base->aviutl2_window = hwnd;
-
-			// 列挙を終了します。
-			return FALSE;
-		}, 0);
-	}
-
-	//
 	// よく使うファイルパスを管理します。
 	//
 	struct base_path_t

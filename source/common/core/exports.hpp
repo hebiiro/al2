@@ -30,12 +30,55 @@ namespace apn
 	}
 
 	//
-	// aviutl2のコンフィグを取得します。
+	// 対応バージョンを返します。
+	//
+	EXTERN_C DWORD RequiredVersion()
+	{
+		return 2003000;
+	}
+
+	//
+	// ロガー初期化関数です。
+	//
+	EXTERN_C void InitializeLogger(LOG_HANDLE* handle)
+	{
+		// ログハンドルを取得します。
+		logger.handle = handle;
+	}
+
+	//
+	// コンフィグ初期化関数です。
 	//
 	EXTERN_C void InitializeConfig(CONFIG_HANDLE* config)
 	{
-		// コアライブラリを初期化します。
-		init_core_lib(config);
+		// コンフィグハンドルを取得します。
+		tr.config = config;
+
+		// このタイミングでコアライブラリを初期化します。
+
+		// プラグイン名をセットします。
+//		hive_base->plugin_name = version_base->get_name();
+		hive_base->plugin_name = version_base->get_information();
+
+		// カレントスレッドのウィンドウを列挙します。
+		::EnumThreadWindows(::GetCurrentThreadId(), [](HWND hwnd, LPARAM l_param)
+		{
+			// クラス名を取得します。
+			auto class_name = my::get_class_name(hwnd);
+			MY_TRACE_STR(class_name);
+
+			// クラス名が一致しない場合は除外します。
+			if (class_name != L"aviutl2Manager") return TRUE;
+
+			// トップレベルウィンドウではない場合は除外します。
+			if (::GetWindow(hwnd, GW_OWNER)) return TRUE;
+
+			// aviutl2ウィンドウをセットします。
+			hive_base->aviutl2_window = hwnd;
+
+			// 列挙を終了します。
+			return FALSE;
+		}, 0);
 	}
 
 	//
@@ -43,8 +86,6 @@ namespace apn
 	//
 	EXTERN_C bool InitializePlugin(DWORD version)
 	{
-		if (version < 2003000) return false;
-
 		return !!app_base->on_initialize_plugin(version);
 	}
 
@@ -61,6 +102,9 @@ namespace apn
 	//
 	EXTERN_C void RegisterPlugin(HOST_APP_TABLE* host)
 	{
+		// 編集ハンドルを取得します。
+		editor.handle = host->create_edit_handle();
+
 		// プラグインの情報を設定します。
 		host->set_plugin_information(version_base->get_information().c_str());
 

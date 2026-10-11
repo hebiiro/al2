@@ -1,7 +1,9 @@
 ﻿#pragma once
 
 #include "common/core/include.hpp"
+#include "common/core/logger.hpp"
 #include "common/core/translator.hpp"
+#include "common/core/editor.hpp"
 #include "common/core/version_base.hpp"
 #include "common/core/hive_base.hpp"
 #include "common/core/utils.hpp"

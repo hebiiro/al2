@@ -8,7 +8,7 @@ namespace apn
 	inline struct translator_t
 	{
 		//
-		// 翻訳必要なaviutl2の変数です。
+		// 翻訳に必要なaviutl2の変数です。
 		//
 		CONFIG_HANDLE* config = {};
 

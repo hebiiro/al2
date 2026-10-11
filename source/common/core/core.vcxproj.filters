@@ -14,5 +14,7 @@
     <ClInclude Include="translator.hpp" />
     <ClInclude Include="exports.hpp" />
     <ClInclude Include="app_base.hpp" />
+    <ClInclude Include="editor.hpp" />
+    <ClInclude Include="logger.hpp" />
   </ItemGroup>
 </Project>

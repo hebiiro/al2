@@ -59,7 +59,7 @@ using namespace Gdiplus;
 #pragma comment(lib, "d2d1.lib")
 #include <d2d1effects.h>
 #pragma comment(lib, "dxguid.lib")
-#include <dwrite.h>
+#include <dwrite_3.h>
 #pragma comment(lib, "dwrite.lib")
 #include <wincodec.h>
 #include <wrl/client.h>
