@@ -151,6 +151,9 @@
     <ProjectReference Include="..\al2_slimming\source\al2_slimming\al2_slimming.vcxproj">
       <Project>{30e46fef-25a3-4200-8310-ae78c7c9f25f}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\al2_timeline_object_arranger\source\al2_timeline_object_arranger\al2_timeline_object_arranger.vcxproj">
+      <Project>{1657345e-74d0-4eeb-80ef-306d49f94cbe}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\al2_ui_dressing\source\al2_ui_dressing\al2_ui_dressing.vcxproj">
       <Project>{4dc9992f-1b75-4e8b-8343-68ddaab2d8e0}</Project>
     </ProjectReference>

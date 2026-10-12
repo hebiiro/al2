@@ -25,3 +25,6 @@
 [submodule "source/al2_dialog_resizer"]
 	path = source/al2_dialog_resizer
 	url = https://github.com/hebiiro/al2_dialog_resizer
+[submodule "source/al2_timeline_object_arranger"]
+	path = source/al2_timeline_object_arranger
+	url = https://github.com/hebiiro/al2_timeline_object_arranger

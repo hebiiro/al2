@@ -2,7 +2,7 @@
 
 * `al2.props`の`origin_dir`でインクルードの基点となるフォルダを指定してください。
 * `al2.props`の`aviutl2_dir`で出力フォルダを指定してください。
-* `al2.props`の`aviutl2_plugin_ext`で出力拡張子を指定してください。
+* `al2.props`の`pack_dir`で配布用フォルダを指定してください。
 
 ```xml
     <aviutl2_dir>ここをaviutl2.exeがあるフォルダのパスに書き換えます</aviutl2_dir>
@@ -23,6 +23,7 @@ git submodule add https://github.com/hebiiro/al2_visual_font
 git submodule add https://github.com/hebiiro/al2_preset_adder
 git submodule add https://github.com/hebiiro/al2_appride
 git submodule add https://github.com/hebiiro/al2_dialog_resizer
+git submodule add https://github.com/hebiiro/al2_timeline_object_arranger
 ```
 
 ---

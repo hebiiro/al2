@@ -11,6 +11,7 @@
 * [フォント視覚化MOD](https://github.com/hebiiro/al2_visual_font)
 * [プリセット追加MOD](https://github.com/hebiiro/al2_preset_adder)
 * [ダイアログサイズ変更MOD](https://github.com/hebiiro/al2_dialog_resizer)
+* [タイムラインオブジェクト整列プラグイン](https://github.com/hebiiro/al2_timeline_object_arranger)
 * [外部アプリ前面表示プラグイン](https://github.com/hebiiro/al2_appride)
 
 ## 🏷️共通事項
@@ -20,7 +21,7 @@
 
 ## ⚗️動作確認
 
-* AviUtl ExEdit2 version 2.0.54 https://spring-fragrance.mints.ne.jp/aviutl/
+* AviUtl ExEdit2 version 2.1.8 https://spring-fragrance.mints.ne.jp/aviutl/
 
 ## 💳クレジット
 
