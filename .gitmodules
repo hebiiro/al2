@@ -28,3 +28,6 @@
 [submodule "source/al2_timeline_object_arranger"]
 	path = source/al2_timeline_object_arranger
 	url = https://github.com/hebiiro/al2_timeline_object_arranger
+[submodule "source/al2_app_thumbnail"]
+	path = source/al2_app_thumbnail
+	url = https://github.com/hebiiro/al2_app_thumbnail
