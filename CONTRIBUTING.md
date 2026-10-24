@@ -25,6 +25,7 @@ git submodule add https://github.com/hebiiro/al2_appride
 git submodule add https://github.com/hebiiro/al2_app_thumbnail
 git submodule add https://github.com/hebiiro/al2_dialog_resizer
 git submodule add https://github.com/hebiiro/al2_timeline_object_arranger
+git submodule add https://github.com/hebiiro/al2_timeline_scroller
 ```
 
 ---

@@ -31,3 +31,6 @@
 [submodule "source/al2_app_thumbnail"]
 	path = source/al2_app_thumbnail
 	url = https://github.com/hebiiro/al2_app_thumbnail
+[submodule "source/al2_timeline_scroller"]
+	path = source/al2_timeline_scroller
+	url = https://github.com/hebiiro/al2_timeline_scroller
