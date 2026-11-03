@@ -54,6 +54,8 @@ using namespace Gdiplus;
 #include <richedit.h>
 #include <vfw.h>
 #pragma comment(lib, "vfw32.lib")
+#include <d3d11_3.h>
+#include <dxgi.h>
 #include <d2d1_1.h>
 #include <d2d1_1helper.h>
 #pragma comment(lib, "d2d1.lib")
@@ -64,11 +66,14 @@ using namespace Gdiplus;
 #include <wincodec.h>
 #include <wrl/client.h>
 using Microsoft::WRL::ComPtr;
+#include <DirectXMath.h>
+using namespace DirectX;
 
 #include "common/aviutl2_plugin_sdk/input2.h"
 #include "common/aviutl2_plugin_sdk/plugin2.h"
 #include "common/aviutl2_plugin_sdk/config2.h"
 #include "common/aviutl2_plugin_sdk/logger2.h"
+#include "common/aviutl2_plugin_sdk/filter2.h"
 #include "common/nlohmann/json.hpp"
 #include "common/detours/detours.h"
 #pragma comment(lib, "common/detours/detours.lib")
