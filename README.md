@@ -15,6 +15,7 @@
 * [タイムラインスクロールプラグイン](https://github.com/hebiiro/al2_timeline_scroller)
 * [外部アプリ前面表示プラグイン](https://github.com/hebiiro/al2_appride)
 * [アプリサムネイル表示プラグイン](https://github.com/hebiiro/al2_app_thumbnail)
+* [自動ダッキングプラグイン](https://github.com/hebiiro/al2_auto_ducker)
 
 ## 🏷️共通事項
 
