@@ -154,6 +154,9 @@
     <ProjectReference Include="..\al2_preset_adder\source\al2_preset_adder\al2_preset_adder.vcxproj">
       <Project>{6bf73123-a939-4f9e-b9d4-c27be4f31825}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\al2_ripple_cutter\source\al2_ripple_cutter\al2_ripple_cutter.vcxproj">
+      <Project>{b8876e0c-0b9d-4a7f-a32b-2786186fa22b}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\al2_slimming\source\al2_slimming\al2_slimming.vcxproj">
       <Project>{30e46fef-25a3-4200-8310-ae78c7c9f25f}</Project>
     </ProjectReference>

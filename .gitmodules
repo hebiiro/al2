@@ -34,3 +34,9 @@
 [submodule "source/al2_timeline_scroller"]
 	path = source/al2_timeline_scroller
 	url = https://github.com/hebiiro/al2_timeline_scroller
+[submodule "source/al2_auto_ducker"]
+	path = source/al2_auto_ducker
+	url = https://github.com/hebiiro/al2_auto_ducker
+[submodule "source/al2_ripple_cutter"]
+	path = source/al2_ripple_cutter
+	url = https://github.com/hebiiro/al2_ripple_cutter

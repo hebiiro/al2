@@ -13,6 +13,7 @@
 * [ダイアログサイズ変更MOD](https://github.com/hebiiro/al2_dialog_resizer)
 * [タイムラインオブジェクト整列プラグイン](https://github.com/hebiiro/al2_timeline_object_arranger)
 * [タイムラインスクロールプラグイン](https://github.com/hebiiro/al2_timeline_scroller)
+* [リップルカットプラグイン](https://github.com/hebiiro/al2_ripple_cutter)
 * [外部アプリ前面表示プラグイン](https://github.com/hebiiro/al2_appride)
 * [アプリサムネイル表示プラグイン](https://github.com/hebiiro/al2_app_thumbnail)
 * [自動ダッキングプラグイン](https://github.com/hebiiro/al2_auto_ducker)
