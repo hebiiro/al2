@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_auto_ducker", "al2_auto
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_ripple_cutter", "al2_ripple_cutter\source\al2_ripple_cutter\al2_ripple_cutter.vcxproj", "{B8876E0C-0B9D-4A7F-A32B-2786186FA22B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "al2_timeline_object_lister", "al2_timeline_object_lister\source\al2_timeline_object_lister\al2_timeline_object_lister.vcxproj", "{CAC411AB-B8C6-499A-886C-2A60D2474FD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -193,6 +195,14 @@ Global
 		{B8876E0C-0B9D-4A7F-A32B-2786186FA22B}.Release|x64.Build.0 = Release|x64
 		{B8876E0C-0B9D-4A7F-A32B-2786186FA22B}.Release|x86.ActiveCfg = Release|Win32
 		{B8876E0C-0B9D-4A7F-A32B-2786186FA22B}.Release|x86.Build.0 = Release|Win32
+		{CAC411AB-B8C6-499A-886C-2A60D2474FD8}.Debug|x64.ActiveCfg = Debug|x64
+		{CAC411AB-B8C6-499A-886C-2A60D2474FD8}.Debug|x64.Build.0 = Debug|x64
+		{CAC411AB-B8C6-499A-886C-2A60D2474FD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAC411AB-B8C6-499A-886C-2A60D2474FD8}.Debug|x86.Build.0 = Debug|Win32
+		{CAC411AB-B8C6-499A-886C-2A60D2474FD8}.Release|x64.ActiveCfg = Release|x64
+		{CAC411AB-B8C6-499A-886C-2A60D2474FD8}.Release|x64.Build.0 = Release|x64
+		{CAC411AB-B8C6-499A-886C-2A60D2474FD8}.Release|x86.ActiveCfg = Release|Win32
+		{CAC411AB-B8C6-499A-886C-2A60D2474FD8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -40,3 +40,6 @@
 [submodule "source/al2_ripple_cutter"]
 	path = source/al2_ripple_cutter
 	url = https://github.com/hebiiro/al2_ripple_cutter
+[submodule "source/al2_timeline_object_lister"]
+	path = source/al2_timeline_object_lister
+	url = https://github.com/hebiiro/al2_timeline_object_lister

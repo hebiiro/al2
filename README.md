@@ -12,6 +12,7 @@
 * [プリセット追加MOD](https://github.com/hebiiro/al2_preset_adder)
 * [ダイアログサイズ変更MOD](https://github.com/hebiiro/al2_dialog_resizer)
 * [タイムラインオブジェクト整列プラグイン](https://github.com/hebiiro/al2_timeline_object_arranger)
+* [タイムラインオブジェクトリストアッププラグイン](https://github.com/hebiiro/al2_timeline_object_lister)
 * [タイムラインスクロールプラグイン](https://github.com/hebiiro/al2_timeline_scroller)
 * [リップルカットプラグイン](https://github.com/hebiiro/al2_ripple_cutter)
 * [外部アプリ前面表示プラグイン](https://github.com/hebiiro/al2_appride)
@@ -25,7 +26,7 @@
 
 ## ⚗️動作確認
 
-* AviUtl ExEdit2 version 2.1.8 https://spring-fragrance.mints.ne.jp/aviutl/
+* AviUtl ExEdit2 version 2.1.17 https://spring-fragrance.mints.ne.jp/aviutl/
 
 ## 💳クレジット
 

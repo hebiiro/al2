@@ -163,6 +163,9 @@
     <ProjectReference Include="..\al2_timeline_object_arranger\source\al2_timeline_object_arranger\al2_timeline_object_arranger.vcxproj">
       <Project>{1657345e-74d0-4eeb-80ef-306d49f94cbe}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\al2_timeline_object_lister\source\al2_timeline_object_lister\al2_timeline_object_lister.vcxproj">
+      <Project>{cac411ab-b8c6-499a-886c-2a60d2474fd8}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\al2_timeline_scroller\source\al2_timeline_scroller\al2_timeline_scroller.vcxproj">
       <Project>{ff38bbb6-b676-45f8-a568-5ae944b9cfb5}</Project>
     </ProjectReference>
